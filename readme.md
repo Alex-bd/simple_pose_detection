@@ -31,6 +31,8 @@
 相应的权重文件见如下链接：
 链接：https://pan.baidu.com/s/1fGxGW_14J-y47ZStdsMBVA 
 提取码：kdcc
+
+
 ###步骤2：读取图像并准备输入网络
 首先，我们需要使用blobFromImage函数将图像从OpenCV格式转换为Caffe blob格式，以便可以将其作为输入输入到网络。这些参数将在blobFromImage函数中提供。由于OpenCV和Caffe都使用BGR格式，因此无需交换R和B通道。
 
